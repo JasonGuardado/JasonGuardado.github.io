@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One|Righteous|Ribeye|Ribeye+Marrow');
+
+
+main {
+max-width: 800px;
+margin: 40px auto;
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+
+.contact-section {
+margin-bottom: 30px;
+}
+
+.contact-box p {
+margin: 8px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1rem;
+}
+
+
+.contact-form button {
+margin-top: 20px;
+padding: 12px 20px;
+background: #4d6cff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1rem;
+}
+
+
+.contact-form button:hover {
+background: #3b53cf;
+}
+
+Main {
+  background: #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}

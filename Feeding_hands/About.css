@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One|Righteous|Ribeye|Ribeye+Marrow');
+
+
+.about-wrapper {
+width: 80%;
+margin: 40px auto;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+
+
+.about-image {
+float: left;
+width: 270px;
+height: auto;
+margin: 0 20px 20px 0;
+border-radius: 12px;
+}
+
+
+.about-text {
+font-size: 1.1rem;
+}
+
+
+
+:nth-of-type(2) {
+  background: #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.about-wrapper::after {
+content: "";
+display: block;
+clear: both;
+}

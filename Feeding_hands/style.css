@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One|Righteous|Ribeye|Ribeye+Marrow');
+ 
+/* NAVIGATION */
+nav {
+  background: #770168;
+  border-bottom: 5px solid #999;
+  padding: 1px;
+  font-family: 'Ribeye', cursive;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+ background: #770168;
+  color: #000000;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  
+}
+
+nav ul li a:hover {
+  background: #b8b8b8;
+  color: #3b3b3b;
+}
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+     font-family: 'Ribeye', cursive;
+}
+
+main, footer {
+  padding: 15px;
+  font-family: 'Ribeye', cursive;
+}
+
+/* CSS for header goes here*/
+header {
+    background: #589;
+    padding: 10px 0;
+    background-image: url('pics/Giving.jpg');
+    height: 400px;
+    background-size: cover;
+    border-bottom: 10px solid #999;
+    position: relative;
+  
+  }
+  
+header h1 {
+background: rgba(128, 128, 128, 0.299);
+padding: 30px;
+display: inline-block;
+border-radius: 10px 10px 10px 10px;
+ font-family: 'Ribeye', cursive;
+color: #ffffff;
+font-size: 3.5rem;
+position: absolute;
+top: 6%;
+left: 55%;
+text-align: center;
+}
+header span{
+    display: block;
+    font-size: 0.7em;
+    font-family: 'Ribeye Marrow', cursive;
+    color: #ffffff;
+    text-shadow: 3px 3px rgb(28, 27, 27);
+    text-align: center;
+    
+}
+
+/* End CSS for header */
+
+/* CSS for Sections goes here*/
+
+
+#home section {
+  background: #ddd;
+  padding: 10px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+
+section h2 {
+  text-align: center;
+}
+
+
+#home main {
+  display: flex;
+  flex-flow: row wrap;
+   font-family: 'Ribeye', cursive;
+}
+
+
+
+ main section {
+  flex: 1 1 33%;
+}
+
+.center-image {
+  text-align: center;
+}
+
+
+main span{
+    font-family: 'Ribeye', cursive;
+    color: #df0000;
+    text-decoration: underline;
+}
+
+
+/* End CSS for Sections */
+
+/* CSS for footer goes here*/
+
+footer {
+    background: #770168;
+    color: #020202;
+    border-top: 10px solid #999;
+}
